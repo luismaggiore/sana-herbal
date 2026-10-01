@@ -1,0 +1,32 @@
+# Respaldos y archivos de trabajo
+_respaldo/
+script.js
+*.psd
+*.ai
+*.mp4
+.DS_Store
+Thumbs.db
+
+# img/: solo se suben las imágenes que usa la página.
+# Si agregas una imagen nueva al sitio, súmala aquí con !img/nombre
+img/*
+!img/cardiocare2.png
+!img/colontonic-ingredients.jpg
+!img/colontonic.png
+!img/dr-sikaffy.png
+!img/gmofree.webp
+!img/hero.png
+!img/ingredients.webp
+!img/labtested.webp
+!img/logo-nav.webp
+!img/logo-white.svg
+!img/logo.webp
+!img/muscleroot-ingredients.jpg
+!img/muscleroot.png
+!img/pill-hero.png
+!img/pill.webp
+!img/productos.png
+!img/tamara.png
+!img/thyroidcare-ingredients.png
+!img/thyroidcare.png
+!img/usamade.webp
