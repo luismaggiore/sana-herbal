@@ -13,9 +13,9 @@
   </head>
   <body>
     <!-- ===== NAV: marca + menú real + carrito ===== -->
-    <nav class="navbar fixed-top navbar-expand-lg nav2">
+    <nav class="navbar fixed-top navbar-expand-lg site-nav">
       <div class="container-fluid">
-        <a class="navbar-brand nav2-brand" href="#"><img width="526" height="112" src="img/logo-nav.webp" alt="Sana Herbal Sciences" /></a>
+        <a class="navbar-brand d-inline-flex align-items-center p-0" href="#"><img width="526" height="112" src="img/logo-nav.webp" alt="Sana Herbal Sciences" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,27 +24,28 @@
           aria-controls="navbarContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+>
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-            <li class="nav-item"><a class="nav-link" href="#formulas">Formulas</a></li>
+            <li class="nav-item"><a class="nav-link" href="formulas.html">Formulas</a></li>
             <li class="nav-item"><a class="nav-link" href="#why-whole-herbs">Why whole herbs</a></li>
             <li class="nav-item"><a class="nav-link" href="#our-story">Our story</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://sanaherbal.com/blogs/100years">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             <li class="nav-item">
-              <a class="nav-link nav2-cart" href="https://sanaherbal.com/search" aria-label="Search">
+              <a class="nav-link nav-icon" href="https://sanaherbal.com/search" aria-label="Search">
                 <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav2-cart" href="https://sanaherbal.com/customer_authentication/redirect?locale=en&amp;region_country=US" aria-label="Account">
+              <a class="nav-link nav-icon" href="https://sanaherbal.com/customer_authentication/redirect?locale=en&amp;region_country=US" aria-label="Account">
                 <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav2-cart" href="#" aria-label="Cart">
+              <a class="nav-link nav-icon" href="#" aria-label="Cart">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9.5" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/></svg>
               </a>
             </li>
@@ -56,7 +57,7 @@
     <main>
       <!-- ===== HERO ===== -->
       <header>
-        <div class="content" style="background-image: url('img/hero.png');background-size: cover; background-position: center; display: flex; align-items: center;">
+        <div class="hero-panel" style="background-image: url('img/hero.webp');background-size: cover; background-position: center; display: flex; align-items: center;">
         <div class="container-fluid">
        <div class="row align-items-center">
         <div class="col-lg-6 my-5">
@@ -65,46 +66,46 @@
               Whole-herb supplements.<br />Nothing isolated. No fillers.
             </h1>
             <p class="mb-4">Botanical formulas by Dr. Marco Sikaffy, ND. Dried, milled and third-party tested, every single batch.</p>
-            <div class="hero2-ctas">
-              <a class="btn-sana" href="#formulas">Shop the formulas</a>
-              <a class="hero2-link" href="#why-whole-herbs">Why whole herbs</a>
+            <div class="cluster-loose text-md">
+              <a class="btn-pill" href="#formulas">Shop the formulas</a>
+              <a class="link" href="#why-whole-herbs">Why whole herbs</a>
             </div>
-            <ul class="hero2-trust">
-              <li><span class="hero2-stars">★</span> 4.4 from 600+ Amazon reviews</li>
+            <ul class="inline-list">
+              <li><span class="stars">★</span> 4.4 from 600+ Amazon reviews</li>
               <li>Free US shipping</li>
               <li>30-day money-back guarantee</li>
             </ul>
         </div>
                 <div class="col-lg-6">
-                  <img width="1362" height="1338" src="img/pill-hero.png" alt="Open capsule with whole herbs" class="img-fluid img-pill" />
+                  <img width="1362" height="1338" src="img/pill-hero.webp" alt="Open capsule with whole herbs" class="img-fluid hero-img" />
                 </div>
             </div></div></div>
       </header>
 
       <!-- ===== FRANJA DE SELLOS ===== -->
-      <section class="trust2">
+      <section>
         <div class="container-fluid">
           <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
             <div class="col">
-              <img width="191" height="191" src="img/labtested.webp" alt="" class="trust2-icon" />
-              <h3>3rd-party lab tested</h3>
-              <p>ISO 17025-accredited labs</p>
+              <img width="191" height="191" src="img/labtested.webp" alt="" class="icon" />
+              <h4>3rd-party lab tested</h4>
+              <p class="text-sm">ISO 17025-accredited labs</p>
             </div>
             <div class="col">
-              <img width="191" height="191" src="img/usamade.webp" alt="" class="trust2-icon" />
-              <h3>Made in the USA</h3>
-              <p>GMP facility, domestic &amp; imported ingredients</p>
+              <img width="191" height="191" src="img/usamade.webp" alt="" class="icon" />
+              <h4>Made in the USA</h4>
+              <p class="text-sm">GMP facility, domestic &amp; imported ingredients</p>
             </div>
             <div class="col">
-              <img width="191" height="191" src="img/gmofree.webp" alt="" class="trust2-icon" />
-              <h3>Non-GMO verified</h3>
-              <p>Tested by Exact Scientific Services</p>
+              <img width="191" height="191" src="img/gmofree.webp" alt="" class="icon" />
+              <h4>Non-GMO verified</h4>
+              <p class="text-sm">Tested by Exact Scientific Services</p>
             </div>
             <div class="col">
-                          <img width="191" height="191" src="img/pill.webp" alt="" class="trust2-icon" />
+                          <img width="191" height="191" src="img/pill.webp" alt="" class="icon" />
 
-              <h3>No fillers</h3>
-              <p>Only herbs + a plant-based capsule</p>
+              <h4>No fillers</h4>
+              <p class="text-sm">Only herbs + a plant-based capsule</p>
             </div>
           </div>
         </div>
@@ -114,7 +115,7 @@
       <section class="py-xl" id="formulas">
         <div class="container-fluid">
           <div class="text-center mb-5">
-          <span class="needs-eyebrow">Shop by need</span>
+          <span class="eyebrow">Shop by need</span>
           <h2 class="text-center mb-3" style="max-width:800px;margin:auto;">
           What does your body need today?
           </h2>
@@ -122,56 +123,56 @@
           </div>
             <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-3">
             <div class="col">
-              <div class="sana-card card2">
-                <div class="product-tag">BEST SELLER</div>
-                <span class="category-tag">Arterial Health</span>
-                <h3><a class="card2-title" href="#">Cardio Care</a></h3>
-                <div class="product-imgs">
-                  <img width="1350" height="1350" class="product-img img-main" src="img/cardiocare2.png" alt="Sana Cardio Care bottle" />
-                  <img width="700" height="700" class="product-img img-hover" src="img/cardio-care-ingredients.png" alt="Cardio Care ingredients: hawthorn berry, arjuna bark, ginger and cayenne" />
-                </div>
-                <p class="card2-benefit">Everyday support for healthy arteries and circulation.*</p>
-                <a class="btn-sana" href="#">Choose options</a>
-                <span class="price">From $34.69</span>
+              <div class="product-card">
+                <div class="tag">BEST SELLER</div>
+                <span class="tag-outline">Arterial Health</span>
+                <h3><a href="cardio-care.html">Cardio Care</a></h3>
+                <a class="product-card-link" href="cardio-care.html" aria-label="Cardio Care"><div class="img-swap">
+                  <img width="1350" height="1350" class="img-swap-front" src="img/cardiocare.webp" alt="Sana Cardio Care bottle" />
+                  <img width="700" height="700" class="img-swap-back" src="img/cardio-care-ingredients.webp" alt="Cardio Care ingredients: hawthorn berry, arjuna bark, ginger and cayenne" />
+                </div></a>
+                <p class="text-sm">Everyday support for healthy arteries and circulation.*</p>
+                <a class="btn-pill" href="cardio-care.html">Choose options</a>
+                <span class="text-sm">From $34.69</span>
               </div>
             </div>
             <div class="col">
-              <div class="sana-card card2">
-                <span class="category-tag">Muscle &amp; Joint Recovery</span>
-                <h3><a class="card2-title" href="#">MuscleRoot</a></h3>
-                <div class="product-imgs">
-                  <img width="1350" height="1350" class="product-img img-main" src="img/muscleroot.png" alt="Sana MuscleRoot bottle" />
-                  <img width="700" height="700" class="product-img img-hover" src="img/muscleroot-ingredients.png" alt="MuscleRoot ingredients: frankincense, turmeric, cat&#39;s claw, astragalus, nopal cactus and amla" />
-                </div>
-                <p class="card2-benefit">Supports a healthy inflammatory response in joints and muscles.*</p>
-                <a class="btn-sana" href="#">Add to cart</a>
-                <span class="price">$29.95</span>
+              <div class="product-card">
+                <span class="tag-outline">Muscle &amp; Joint Recovery</span>
+                <h3><a href="#">MuscleRoot</a></h3>
+                <a class="product-card-link" href="#" aria-label="MuscleRoot"><div class="img-swap">
+                  <img width="1350" height="1350" class="img-swap-front" src="img/muscleroot.webp" alt="Sana MuscleRoot bottle" />
+                  <img width="700" height="700" class="img-swap-back" src="img/muscleroot-ingredients.webp" alt="MuscleRoot ingredients: frankincense, turmeric, cat&#39;s claw, astragalus, nopal cactus and amla" />
+                </div></a>
+                <p class="text-sm">Supports a healthy inflammatory response in joints and muscles.*</p>
+                <a class="btn-pill" href="#">Add to cart</a>
+                <span class="text-sm">$29.95</span>
               </div>
             </div>
             <div class="col">
-              <div class="sana-card card2">
-                <span class="category-tag">Colon Health &amp; Regularity</span>
-                <h3><a class="card2-title" href="#">Colon Tonic</a></h3>
-                <div class="product-imgs">
-                  <img width="1350" height="1350" class="product-img img-main" src="img/colontonic.png" alt="Sana Colon Tonic bottle" />
-                  <img width="700" height="700" class="product-img img-hover" src="img/colon-tonic-ingredients.png" alt="Colon Tonic ingredients: cascara sagrada, fennel, barberry, cayenne, lobelia, ginger, rhubarb and goldenseal" />
-                </div>
-                <p class="card2-benefit">Gentle support for daily regularity and digestive comfort.*</p>
-                <a class="btn-sana" href="#">Add to cart</a>
-                <span class="price">$29.95</span>
+              <div class="product-card">
+                <span class="tag-outline">Colon Health &amp; Regularity</span>
+                <h3><a href="#">Colon Tonic</a></h3>
+                <a class="product-card-link" href="#" aria-label="Colon Tonic"><div class="img-swap">
+                  <img width="1350" height="1350" class="img-swap-front" src="img/colontonic.webp" alt="Sana Colon Tonic bottle" />
+                  <img width="700" height="700" class="img-swap-back" src="img/colon-tonic-ingredients.webp" alt="Colon Tonic ingredients: cascara sagrada, fennel, barberry, cayenne, lobelia, ginger, rhubarb and goldenseal" />
+                </div></a>
+                <p class="text-sm">Gentle support for daily regularity and digestive comfort.*</p>
+                <a class="btn-pill" href="#">Add to cart</a>
+                <span class="text-sm">$29.95</span>
               </div>
             </div>
             <div class="col">
-              <div class="sana-card card2">
-                <span class="category-tag">Thyroid &amp; Hormonal Wellness</span>
-                <h3><a class="card2-title" href="#">Thyroid Care</a></h3>
-                <div class="product-imgs">
-                  <img width="1350" height="1350" class="product-img img-main" src="img/thyroidcare.png" alt="Sana Thyroid Care bottle" />
-                  <img width="700" height="700" class="product-img img-hover" src="img/thyrod-care-ingredients.png" alt="Thyroid Care ingredients: bladderwrack, kelp and dulse seaweed" />
-                </div>
-                <p class="card2-benefit">Marine-sourced iodine to support thyroid function and metabolism.*</p>
-                <a class="btn-sana" href="#">Add to cart</a>
-                <span class="price">$29.92</span>
+              <div class="product-card">
+                <span class="tag-outline">Thyroid &amp; Hormonal Wellness</span>
+                <h3><a href="#">Thyroid Care</a></h3>
+                <a class="product-card-link" href="#" aria-label="Thyroid Care"><div class="img-swap">
+                  <img width="1350" height="1350" class="img-swap-front" src="img/thyroidcare.webp" alt="Sana Thyroid Care bottle" />
+                  <img width="700" height="700" class="img-swap-back" src="img/thyrod-care-ingredients.webp" alt="Thyroid Care ingredients: bladderwrack, kelp and dulse seaweed" />
+                </div></a>
+                <p class="text-sm">Marine-sourced iodine to support thyroid function and metabolism.*</p>
+                <a class="btn-pill" href="#">Add to cart</a>
+                <span class="text-sm">$29.92</span>
               </div>
             </div>
           </div>
@@ -180,71 +181,71 @@
 
 
       <!-- ===== WHY WHOLE HERBS: texto + pasos + foto, y comparativa extracto / planta entera ===== -->
-      <section class="whydark py-md">
+      <section class="section-dark" id="why-whole-herbs">
         <div class="container-fluid">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-              <span class="needs-eyebrow">Why whole herbs?</span>
-              <h2 class="whydark-title">Nature made it complete.<br />We keep it that way.</h2>
-              <h3 class="whydark-lead">Purely herbal. Nothing left behind.</h3>
-              <p class="whydark-p">Nature's power in a pill. While extracts keep one compound and discard the rest, we keep the whole herb and its full spectrum of natural compounds.</p>
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 row-cols-xxl-3 g-4 mt-4 why-steps">
+              <span class="eyebrow">Why whole herbs?</span>
+              <h2>Nature made it complete.<br />We keep it that way.</h2>
+              <h3 class="text-accent mb-sm">Purely herbal. Nothing left behind.</h3>
+              <p>Nature's power in a pill. While extracts keep one compound and discard the rest, we keep the whole herb and its full spectrum of natural compounds.</p>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 row-cols-xxl-3 g-4 mt-4">
                   <div class="col">
-                    <div class="why-step">
-                      <img width="190" height="190" src="img/grown.webp" alt="" class="trust2-icon" />
+                    <div class="icon-item">
+                      <img width="190" height="190" src="img/grown.webp" alt="" class="icon" />
                       <div>
                         <h4 class="mb-2">Grown where it grows best</h4>
-                        <p>Every botanical from a named, traceable origin, like hawthorn from Bulgaria.</p>
+                        <p class="text-sm">Every botanical from a named, traceable origin, like hawthorn from Bulgaria.</p>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="why-step">
-                      <img width="190" height="190" src="img/dried.webp" alt="" class="trust2-icon" />
+                    <div class="icon-item">
+                      <img width="190" height="190" src="img/dried.webp" alt="" class="icon" />
                       <div>
                         <h4 class="mb-2">Dried and milled. Nothing more.</h4>
-                        <p>No solvents, no isolating, no concentrating. Just the whole plant, finely ground.</p>
+                        <p class="text-sm">No solvents, no isolating, no concentrating. Just the whole plant, finely ground.</p>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="why-step">
-                      <img width="190" height="190" src="img/tested.webp" alt="" class="trust2-icon" />
+                    <div class="icon-item">
+                      <img width="190" height="190" src="img/tested.webp" alt="" class="icon" />
                       <div>
                         <h4 class="mb-2">Tested, then sealed</h4>
-                        <p>Every batch lab-screened for heavy metals and contaminants.</p>
+                        <p class="text-sm">Every batch lab-screened for heavy metals and contaminants.</p>
                       </div>
                     </div>
                   </div>
                 </div>
             </div>
             <div class="col-lg-6">
-              <img width="2048" height="2048" src="img/productos.png" alt="Sana Cardio Care, MuscleRoot, Colon Tonic and Thyroid Care on a mossy forest log" class="whydark-img" loading="lazy" />
+              <img width="1400" height="1400" src="img/productos.webp" alt="Sana Cardio Care, MuscleRoot, Colon Tonic and Thyroid Care on a mossy forest log" class="w-100 d-block rounded-4" loading="lazy" />
             </div>
           </div>
         </div>
       </section>
-      <section class="compare py-0">
+      <section class="py-0">
       <div class="container-fluid p-0">
         <div class="row g-0">
         
-<div class="col-md-6 p-izq">
-  <span class="why2-kicker">Standardized extract</span>
+<div class="col-md-6 split-light">
+  <span class="eyebrow">Standardized extract</span>
   <h3 class="mb-4">Processed in a lab</h3>
-  <ul class="why2-list">
+  <ul class="checklist">
     <li class="con">Extracted with chemical solvents</li>
     <li class="con">One compound kept, the rest thrown away</li>
     <li class="con">Often bulked with maltodextrin</li>
   </ul>
 </div>
-  <div class="col-md-6 p-der">
-    <span class="why2-badge">Our choice</span>
-    <span class="why2-kicker">Whole herb</span>
+  <div class="col-md-6 split-dark">
+    <span class="tag">Our choice</span>
+    <span class="eyebrow">Whole herb</span>
     <h3 class="mb-4">Kept whole, kept simple.</h3>
-    <ul class="why2-list">
-      <li class="pro">The complete plant, not one isolated compound</li>
-      <li class="pro">No carriers, fillers or flow agents</li>
-      <li class="pro">Used this way for centuries</li>
+    <ul class="checklist">
+      <li>The complete plant, not one isolated compound</li>
+      <li>No carriers, fillers or flow agents</li>
+      <li>Used this way for centuries</li>
     </ul>
   </div>
         </div>
@@ -253,77 +254,77 @@
       <!-- ===== /WHY WHOLE HERBS ===== -->
 
       <!-- ===== NUESTRA HISTORIA ===== -->
-      <section class="story2 py-xl" id="our-story">
+      <section class="py-xl" id="our-story">
         <div class="container-fluid">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-              <div class="story2-media">
-                <div class="story2-photos">
-                <div class="story2-ph story2-ph-main"><img width="1060" height="1060" src="img/dr-sikaffy.png" alt="Dr. Marco Sikaffy" loading="lazy" /></div>
-                <div class="story2-ph story2-ph-small"><img width="1200" height="1031" src="img/tamara.png" alt="Tamara Higueras, founder of Sana Herbal Sciences" loading="lazy" /></div>
+              <div class="overlay-wrap">
+                <div class="photo-pair">
+                <div class="photo photo-main"><img width="1060" height="1060" src="img/dr-sikaffy.webp" alt="Dr. Marco Sikaffy" loading="lazy" /></div>
+                <div class="photo photo-inset"><img width="1200" height="1031" src="img/tamara.webp" alt="Tamara Higueras, founder of Sana Herbal Sciences" loading="lazy" /></div>
                 </div>
                 <!-- Tarjeta del formulador: rescatada del bloque "TRUST" del sitio actual, ajustada (sin NGM/homotoxicología, ND, "decades") -->
-                <div class="story2-doc">
-                <span class="story2-doc-kicker">Meet the formulator</span>
-                <h3>Dr. Marco Antonio Sikaffy, ND</h3>
-                <p class="story2-doc-spec">Specialist in Natural Medicine, Herbal Sciences and Holistic Health.</p>
+                <div class="overlay-card">
+                <span class="eyebrow text-tiny mb-0">Meet the formulator</span>
+                <h4>Dr. Marco Antonio Sikaffy, ND</h4>
+                <p class="text-sm fst-italic">Specialist in Natural Medicine, Herbal Sciences and Holistic Health.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <span class="needs-eyebrow">Our story</span>
+              <span class="eyebrow">Our story</span>
               <h2>A family formula,<br />decades in the making.</h2>
-              <p class="story2-p">Our formulas were born in Honduras, where Dr. Marco Sikaffy refined them with the people he cared for.</p>
-              <p class="story2-p">Years later, his niece Tamara brought them to the US, keeping the original whole-herb recipes and adding independent lab testing.</p>
-              <figure class="story2-quote">
+              <p>Our formulas were born in Honduras, where Dr. Marco Sikaffy refined them with the people he cared for.</p>
+              <p>Years later, his niece Tamara brought them to the US, keeping the original whole-herb recipes and adding independent lab testing.</p>
+              <figure class="quote">
                 <blockquote>“This isn't just business; it's family, passion, and nature's gift to your health.”</blockquote>
                 <figcaption>Tamara Higueras, Founder</figcaption>
               </figure>
-              <a class="btn-sana" href="#">Read Dr. Sikaffy's story</a>
+              <a class="btn-pill" href="dr-sikaffy.html">Read Dr. Sikaffy's story</a>
             </div>
           </div>
         </div>
       </section>
 
       <!-- ===== TESTIMONIOS: reseñas reales de Amazon cargadas a mano. Criterios: texto sin editar (si se acorta, usar …), nombre tal como aparece en Amazon, enlace a la reseña original, elegir reseñas sobre rutina/bienestar (no enfermedades). NO marcar con schema Review. ===== -->
-      <section class="reviews2 py-xl">
+      <section class="py-xl">
         <div class="container-fluid">
           <div class="text-center mb-5">
-            <span class="needs-eyebrow">Reviews</span>
+            <span class="eyebrow">Reviews</span>
             <h2 class="mb-3">Real people. Real routines.</h2>
-            <p class="reviews2-sum"><span class="hero2-stars">★★★★☆</span> 4.4 average from 600+ reviews · <a href="https://www.amazon.com/stores/SanaHerbalSciences/page/93976724-329B-4143-9731-EB94DC747789" target="_blank" rel="noopener">Read them all on Amazon</a></p>
+            <p><span class="stars">★★★★☆</span> 4.4 average from 600+ reviews · <a href="https://www.amazon.com/stores/SanaHerbalSciences/page/93976724-329B-4143-9731-EB94DC747789" target="_blank" rel="noopener">Read them all on Amazon</a></p>
           </div>
           <div class="row g-3">
             <div class="col-md-6 col-lg-3">
-              <div class="review2">
-                <span class="review2-stars" aria-label="5 out of 5 stars">★★★★★</span>
-                <p class="review2-text">“The capsules are very smooth and easy to swallow. (no taste) I like the smell when I open the bottle, it really smells like real herbs. I’m on my second bottle now and I feel better overall. It feels like a quality product… For me, it’s been a good experience so far.”</p>
-                <span class="review2-who">Andi · Cardio Care</span>
-                <a class="review2-ver" href="https://www.amazon.com/gp/customer-reviews/R3EIZP7JOMXTB6" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
+              <div class="review">
+                <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                <p>“The capsules are very smooth and easy to swallow. (no taste) I like the smell when I open the bottle, it really smells like real herbs. I’m on my second bottle now and I feel better overall. It feels like a quality product… For me, it’s been a good experience so far.”</p>
+                <span class="review-author">Andi · Cardio Care</span>
+                <a class="text-sm" href="https://www.amazon.com/gp/customer-reviews/R3EIZP7JOMXTB6" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
               </div>
             </div>
             <div class="col-md-6 col-lg-3">
-              <div class="review2">
-                <span class="review2-stars" aria-label="5 out of 5 stars">★★★★★</span>
-                <p class="review2-text">“Colon Tonic by SANA Herbal Sciences is finally something that works for me… What truly sets this apart is its gentleness… I found that taking it close to bedtime (but not right before) with a large glass of water and staying hydrated the next day made a world of difference.”</p>
-                <span class="review2-who">Steve Dolan · Colon Tonic</span>
-                <a class="review2-ver" href="https://www.amazon.com/gp/customer-reviews/R3JZN412D8P2EM" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
+              <div class="review">
+                <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                <p>“Colon Tonic by SANA Herbal Sciences is finally something that works for me… What truly sets this apart is its gentleness… I found that taking it close to bedtime (but not right before) with a large glass of water and staying hydrated the next day made a world of difference.”</p>
+                <span class="review-author">Steve Dolan · Colon Tonic</span>
+                <a class="text-sm" href="https://www.amazon.com/gp/customer-reviews/R3JZN412D8P2EM" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
               </div>
             </div>
             <div class="col-md-6 col-lg-3">
-              <div class="review2">
-                <span class="review2-stars" aria-label="5 out of 5 stars">★★★★★</span>
-                <p class="review2-text">“I’m 63 and have been using Muscle Root for about a month. It’s helped me feel more energetic and less tired after exercise… It’s not a miracle product, but as a natural support, it works well… Recommended if you’re looking to maintain strength and vitality at this age.”</p>
-                <span class="review2-who">Aurora Salazar · MuscleRoot</span>
-                <a class="review2-ver" href="https://www.amazon.com/gp/customer-reviews/R1VDDEY9J2ODA" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
+              <div class="review">
+                <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                <p>“I’m 63 and have been using Muscle Root for about a month. It’s helped me feel more energetic and less tired after exercise… It’s not a miracle product, but as a natural support, it works well… Recommended if you’re looking to maintain strength and vitality at this age.”</p>
+                <span class="review-author">Aurora Salazar · MuscleRoot</span>
+                <a class="text-sm" href="https://www.amazon.com/gp/customer-reviews/R1VDDEY9J2ODA" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
               </div>
             </div>
             <div class="col-md-6 col-lg-3">
-              <div class="review2">
-                <span class="review2-stars" aria-label="5 out of 5 stars">★★★★★</span>
-                <p class="review2-text">“With this Thyroid Care, though, I like how I feel… This one feels like an organic seaweed iodine supplement with ingredients like bladderwrack and kelp (and smells sea actually)… You should use it for a couple of months to make the effects really noticeable”</p>
-                <span class="review2-who">Natalia · Thyroid Care</span>
-                <a class="review2-ver" href="https://www.amazon.com/gp/customer-reviews/R3CVRHOQB6KX7N" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
+              <div class="review">
+                <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                <p>“With this Thyroid Care, though, I like how I feel… This one feels like an organic seaweed iodine supplement with ingredients like bladderwrack and kelp (and smells sea actually)… You should use it for a couple of months to make the effects really noticeable”</p>
+                <span class="review-author">Natalia · Thyroid Care</span>
+                <a class="text-sm" href="https://www.amazon.com/gp/customer-reviews/R3CVRHOQB6KX7N" target="_blank" rel="noopener">✔ Verified Amazon purchase</a>
               </div>
             </div>
           </div>
@@ -331,38 +332,38 @@
       </section>
 
       <!-- ===== BLOG: 100 Years (rescatado del home actual) ===== -->
-      <section class="blog2 py-xl">
+      <section class="py-xl">
         <div class="container-fluid">
-          <div class="blog2-head">
+          <div class="section-head">
             <div>
-              <span class="needs-eyebrow">100 Years Blog</span>
+              <span class="eyebrow">100 Years Blog</span>
               <h2 class="mb-0">Health &amp; longevity, explained.</h2>
             </div>
-            <a class="blog2-all" href="https://sanaherbal.com/blogs/100years">View all posts</a>
+            <a class="link" href="blog.html">View all posts</a>
           </div>
           <div class="row g-4">
             <div class="col-md-4">
-              <a class="blog2-post" href="https://sanaherbal.com/blogs/100years/whole-herb-vs-standardized-extract-the-tradeoff-nobody-explains">
+              <a class="post-card" href="https://sanaherbal.com/blogs/100years/whole-herb-vs-standardized-extract-the-tradeoff-nobody-explains">
                 <img width="800" height="415" src="https://sanaherbal.com/cdn/shop/articles/Blog_1.jpg?v=1781547437&amp;width=800" alt="" loading="lazy" />
-                <span class="blog2-date">June 15, 2026</span>
-                <h3>Whole Herb vs. Standardized Extract: The Tradeoff Nobody Explains</h3>
-                <span class="blog2-more">Read more</span>
+                <span class="post-date">June 15, 2026</span>
+                <h4>Whole Herb vs. Standardized Extract: The Tradeoff Nobody Explains</h4>
+                <span class="post-more">Read more</span>
               </a>
             </div>
             <div class="col-md-4">
-              <a class="blog2-post" href="https://sanaherbal.com/blogs/100years/the-generation-that-forgot-how-to-get-sick">
+              <a class="post-card" href="https://sanaherbal.com/blogs/100years/the-generation-that-forgot-how-to-get-sick">
                 <img width="800" height="415" src="https://sanaherbal.com/cdn/shop/articles/Blog_3_1_7a3d3f7a-1913-4e1b-87b0-a43ebac6f991.png?v=1762267478&amp;width=800" alt="" loading="lazy" />
-                <span class="blog2-date">November 4, 2025</span>
-                <h3>The Generation That Forgot How to Get Sick</h3>
-                <span class="blog2-more">Read more</span>
+                <span class="post-date">November 4, 2025</span>
+                <h4>The Generation That Forgot How to Get Sick</h4>
+                <span class="post-more">Read more</span>
               </a>
             </div>
             <div class="col-md-4">
-              <a class="blog2-post" href="https://sanaherbal.com/blogs/100years/how-much-exercise-do-you-really-need-to-boost-mood">
+              <a class="post-card" href="https://sanaherbal.com/blogs/100years/how-much-exercise-do-you-really-need-to-boost-mood">
                 <img width="800" height="415" src="https://sanaherbal.com/cdn/shop/articles/Blog_1.png?v=1760114252&amp;width=800" alt="" loading="lazy" />
-                <span class="blog2-date">October 10, 2025</span>
-                <h3>How Much Exercise Do You Really Need to Boost Mood?</h3>
-                <span class="blog2-more">Read more</span>
+                <span class="post-date">October 10, 2025</span>
+                <h4>How Much Exercise Do You Really Need to Boost Mood?</h4>
+                <span class="post-more">Read more</span>
               </a>
             </div>
           </div>
@@ -370,36 +371,36 @@
       </section>
 
       <!-- ===== CIERRE: envío + garantía con enlaces a políticas + mensaje "complemento, no reemplazo" ===== -->
-      <section class="close2 py-xl">
+      <section class="py-xl">
         <div class="container-fluid text-center">
-          <span class="needs-eyebrow">Your daily ritual</span>
+          <span class="eyebrow">Your daily ritual</span>
           <h2 class="mb-3">Consistency is the formula.</h2>
-          <p class="close2-sub">Herbs work best as a daily habit. Pick the formula your body needs and make it part of your routine.</p>
-          <ul class="close2-perks">
-            <li><strong>Free shipping</strong><span>within the US</span><a href="https://sanaherbal.com/pages/delivery">Shipping details</a></li>
-            <li><strong>30-day guarantee</strong><span>or your money back</span><a href="https://sanaherbal.com/policies/refund-policy">Refund policy</a></li>
+          <p>Herbs work best as a daily habit. Pick the formula your body needs and make it part of your routine.</p>
+          <ul class="perks perks-boxed">
+            <li><strong>Free shipping</strong><span>within the US</span><a href="delivery.html">Shipping details</a></li>
+            <li><strong>30-day guarantee</strong><span>or your money back</span><a href="refund-policy.html">Refund policy</a></li>
           </ul>
-          <a class="btn-sana close2-btn" href="#formulas">Start your routine</a>
-          <p class="close2-sign">For those who choose long-term health over quick fixes.</p>
-          <p class="close2-note">Our formulas support a healthy diet and an active lifestyle. They don't replace them.</p>
+          <a class="btn-pill text-lg mb-xl" href="#formulas">Start your routine</a>
+          <p class="fst-italic">For those who choose long-term health over quick fixes.</p>
+          <p class="text-sm">Our formulas support a healthy diet and an active lifestyle. They don't replace them.</p>
         </div>
       </section>
 
       <!-- ===== NEWSLETTER (rescatado del home actual; conectar a Klaviyo al implementar) ===== -->
-      <section class="news2">
+      <section class="section-accent">
         <div class="container-fluid">
           <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-              <h2 class="news2-title">Join the healthy way.</h2>
-              <p class="news2-sub">Longevity tips, new research on the herbs we use and occasional member-only offers.</p>
+              <h2 class="mb-xs">Join the healthy way.</h2>
+              <p>Longevity tips, new research on the herbs we use and occasional member-only offers.</p>
             </div>
             <div class="col-lg-6">
-              <form class="news2-form" action="#" onsubmit="return false;">
+              <form class="inline-form" action="#" onsubmit="return false;">
                 <label for="news2-email" class="visually-hidden">Email</label>
                 <input id="news2-email" type="email" placeholder="Your email" autocomplete="email" required />
-                <button type="submit" class="btn-sana">Subscribe</button>
+                <button type="submit" class="btn-pill">Subscribe</button>
               </form>
-              <p class="news2-legal">No spam. Unsubscribe anytime. See our <a href="https://sanaherbal.com/pages/privacy-promise">privacy promise</a>.</p>
+              <p class="text-sm">No spam. Unsubscribe anytime. See our <a href="privacy.html">privacy promise</a>.</p>
             </div>
           </div>
         </div>
@@ -407,28 +408,29 @@
     </main>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="foot2">
+    <footer>
       <div class="container-fluid">
         <div class="row g-4">
           <div class="col-lg-4">
-            <img width="156" height="128" src="img/logo-white.svg" alt="Sana Herbal Sciences" class="foot2-logo" />
-            <p>Whole-herb formulas by Dr. Marco Sikaffy, ND.</p>
+            <img width="156" height="128" src="img/logo-white.svg" alt="Sana Herbal Sciences"  />
+            <p class="text-sm">Whole-herb formulas by Dr. Marco Sikaffy, ND.</p>
           </div>
           <div class="col-6 col-lg-2">
             <h4>Shop</h4>
-            <a href="#formulas">All formulas</a>
+            <a href="formulas.html">All formulas</a>
           </div>
           <div class="col-6 col-lg-2">
             <h4>Learn</h4>
             <a href="#why-whole-herbs">Why whole herbs</a>
             <a href="#our-story">Our story</a>
-            <a href="https://sanaherbal.com/blogs/100years">Blog</a>
+            <a href="blog.html">Blog</a>
           </div>
           <div class="col-6 col-lg-2">
             <h4>Help</h4>
-            <a href="https://sanaherbal.com/pages/contact">Contact</a>
-            <a href="https://sanaherbal.com/pages/delivery">Shipping</a>
-            <a href="https://sanaherbal.com/policies/refund-policy">Refund policy</a>
+            <a href="contact.html">Contact</a>
+            <a href="delivery.html">Shipping</a>
+            <a href="refund-policy.html">Refund policy</a>
+            <a href="privacy.html">Privacy</a>
           </div>
           <div class="col-6 col-lg-2">
             <h4>Follow</h4>
@@ -437,7 +439,7 @@
             <a href="https://www.tiktok.com/@sana.herbs">TikTok</a>
           </div>
         </div>
-        <p class="foot2-legal">*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.<br />© 2026 Sana Herbal Sciences LLC · 5900 Balcones Dr, Suite 100, Austin, TX 78731 · (469) 242-0223 · care@sanaherbal.com</p>
+        <p class="text-sm">*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.<br />© 2026 Sana Herbal Sciences LLC · 5900 Balcones Dr, Suite 100, Austin, TX 78731 · (469) 242-0223 · care@sanaherbal.com</p>
       </div>
     </footer>
 
