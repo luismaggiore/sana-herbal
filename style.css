@@ -391,6 +391,10 @@ header, .product-card, .section-dark, .split-dark, .section-accent, footer {
   display: block;
   margin: 0 auto var(--sm) auto;
 }
+/* íconos chicos en las listas de beneficios */
+.perks .icon {
+  width: 56px;
+}
 .product-card .img-swap-back {
   object-fit: cover;
   border-radius: var(--brd-radius);
