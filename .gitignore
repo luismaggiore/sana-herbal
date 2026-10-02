@@ -10,26 +10,26 @@ Thumbs.db
 # img/: solo se suben las imágenes que usa la página.
 # Si agregas una imagen nueva al sitio, súmala aquí con !img/nombre
 img/*
+!img/cardio-care-ingredients.png
 !img/cardiocare2.png
-!img/colontonic-ingredients.jpg
+!img/colon-tonic-ingredients.png
 !img/colontonic.png
 !img/dr-sikaffy.png
+!img/dried.webp
 !img/gmofree.webp
+!img/grown.webp
 !img/hero.png
-!img/ingredients.webp
 !img/labtested.webp
 !img/logo-nav.webp
 !img/logo-white.svg
 !img/logo.webp
-!img/muscleroot-ingredients.jpg
+!img/muscleroot-ingredients.png
 !img/muscleroot.png
 !img/pill-hero.png
 !img/pill.webp
 !img/productos.png
 !img/tamara.png
-!img/thyroidcare-ingredients.png
+!img/tested.webp
+!img/thyrod-care-ingredients.png
 !img/thyroidcare.png
 !img/usamade.webp
-!img/grown.webp
-!img/dried.webp
-!img/tested.webp

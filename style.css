@@ -273,8 +273,8 @@ section {
   padding: var(--xl) 0;
 }
 .trust2-icon {
-  width: 72px;
-  height: 72px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
   display: block;
   margin: 0 auto var(--sm) auto;
